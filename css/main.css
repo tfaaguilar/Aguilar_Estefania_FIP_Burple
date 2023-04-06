@@ -1,0 +1,138 @@
+/*
+    CSS Guide
+
+    HOME
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features 1
+    6. New Flavours
+    7. Features 2
+    8. Recipes
+    9. Clients
+    10. Visit us
+    11. Footer
+
+    CONTACT
+    1. Contact form
+*/
+
+/* HOME */
+
+/* 1. General Styles */
+.hidden { display: none;}
+
+body {
+    font-family: 'comfortaa', arial, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    border: solid 1px #d8d2dd;
+    box-shadow: 0px 5px 8px #888888;
+}
+
+a {
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+/* 2. Grid */
+
+.grid-con {
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10x;
+    grid-template-columns: repeat(4, 70px);
+    grid-column-gap: 30px;
+}
+
+#main-header {
+    position: sticky;
+	background-color: #fff;
+}
+
+#main-nav {
+    background-image: url(../images/burger.svg) center no-repeat;
+    border: 0px;
+	width: 50px;
+	height: 20px;
+	transition: all .5s ease;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+#explore {
+    margin-top: 10px;
+    color: #af5050;
+}
+
+#explore:hover {
+    color: #fdc3fd;
+}
+
+#tag-line {
+    color: #6b5454;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px ) {
+    #main-logo {
+        order: -1;
+    }
+    
+}
+
+#main-header {
+    position: sticky;
+}
+
+
+#main-logo {
+    height: 100px;
+}
+
+
+#hero-con {
+    height: 400px;
+}
+
+#products-con {
+    height: 400px;
+}
+
+#products-con2 {
+    height: 400px;
+}
+
+#products-con3 {
+    height: 400px;
+}
+
+#promotional-con {
+    height: 400px;
+}
+
+#promotional-con2 {
+    height: 400px;
+}
+
+#promotional-con3 {
+    height: 400px;
+}
+
+
