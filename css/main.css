@@ -19,7 +19,7 @@
 
 body {
   
-   font-family: 'Sanchez', 'Times New Roman', serif;
+   font-family: 'Comfortaa', 'Times New Roman', serif;
 }
 
 a {
@@ -77,7 +77,7 @@ input, textarea {
 }
 
 #main-nav ul li a:hover {
-   color: #9a2018;
+   color: #662D91;
 }
 
 #main-nav ul li {
@@ -92,8 +92,8 @@ input, textarea {
    margin-bottom: 10px;
 }
 
-.book-now {
-   background-color: #9a2018;
+.sign-in {
+   background-color: #662D91;
    color: #fff;
    font-size: 16px;
    font-style: italic;
@@ -103,17 +103,17 @@ input, textarea {
    transition: all 0.3s ease-in-out;
 }
 
-.book-now:hover {
-   box-shadow: inset 0px -120px 0px rgb(196, 28, 28);
+.sign-in:hover {
+   box-shadow: inset 0px -120px 0px #b176dd;
 }
 
-#book-now-header {
+#sign-in-header {
    display: none;
 }
 
 #logo {
-   max-width: 288px;
-   margin-bottom: 20px;
+   max-width: 180px;
+   margin-bottom: 0px;
 }
 
 /* 2. ---Main Nav--- */
@@ -142,7 +142,7 @@ input, textarea {
    object-fit: cover;
 }
 
-#book-now-hero {
+#sign-in-hero {
    height: 67px;
 }
 
@@ -528,14 +528,33 @@ input, textarea {
    font-size: 11px;
 }
 
-#footer-nav, #footer-book-now {
+#footer-nav, #footer-sign-in {
    display: none;
 }
 
 /* Features */
 #features1 {
-   
    height: 1300px;
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+/*New Flavours*/
+#promotional-con {
+   height: 350px;
+   background-color: #EDE7F8  ;
+}
+
+/*Features2*/
+#products-con2 {
+   height: 1276px;
+   text-align: center;
+   
+}
+
+#new-flavours {
+   text-align: center;
 }
 
 
@@ -590,12 +609,12 @@ input, textarea {
       padding-left: 30px;
    }
 
-   #book-now-header {
+   #sign-in-header {
       display: flex;
       margin-right: -16px;
    }
 
-   #book-now-hero {
+   #sign-in-hero {
       display: none;
    }
 
@@ -791,7 +810,7 @@ input, textarea {
       display: block;
    }
 
-   #footer-book-now {
+   #footer-sign-in {
       display: flex;
       height: 80px;
       margin-top: 40px;
@@ -800,9 +819,21 @@ input, textarea {
    #footer-hero {
       background-image: url(../images/footer-td.jpg);
    }
+
+   #features1 {
+   height: 350px;
+}
+   #promotional-con {
+   height: 239px;
+}
+
+#products-con2 {
+   height: 450px;
+}
+   
    
    /*image switching for retina screens*/
-   
+   /*
    @media screen and (min-resolution: 200dpi),
          screen and (min-resolution: 1.25dppx) {
       #footer-hero {
@@ -827,9 +858,11 @@ input, textarea {
 
    #footer-nav ul li {
       margin-bottom: 20px;
-   }  
+   }
 
-}
+
+
+}*/
 
 /* 11. ---Desktop (1200px) Sized Screens */
 
@@ -853,7 +886,7 @@ input, textarea {
       margin-top: 28px;
    }
 
-   .book-now {
+   .sign-in {
       font-size: 18px;
    }
 
@@ -918,4 +951,10 @@ input, textarea {
    #features1 {
    height: 350px;
 }
+
+#promotional-con {
+   height: 380px;
 }
+}
+}
+

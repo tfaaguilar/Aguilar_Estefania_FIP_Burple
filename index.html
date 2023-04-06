@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c65e6bc5cc.js" crossorigin="anonymous"></script>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <title>Welcome to The Couples Resort</title>
+    <title>Burple * Sparkling Water</title>
 </head>
     <body>
-       <h1 class="hidden">Welcome to the Couples Resort</h1>
+       <h1 class="hidden">Burple Homepage</h1>
        <div id="sticky-nav-con">
             <header class="grid-con" id="main-header">
                 <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
@@ -21,24 +22,24 @@
                     <div id="burger-con">
                         <ul id="burger-menu">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Rooms</a></li>
-                            <li><a href="#">Packages</a></li>
-                            <li><a href="#">Dining</a></li>
-                            <li><a href="#">Spa Activities</a></li>
-                            <li><a href="#">Reservations</a></li>
+                            <li><a href="#">Who are we?</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Responsible Business</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
                 <div id="logo" class="col-span-full m-col-start-1 m-col-end-4">
-                    <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+                    <img src="images/BURPLE_Logo.svg" alt="Burple Logo">
                 </div>
-                <div id="book-now-header" class="m-col-span-2 book-now">
-                    <p>Book Now</p>
+                <!--<div id="book-now-header" class="m-col-span-2 book-now">-->
+                <div id="sign-in-header" class="m-col-span-2 sign-in">
+                    <p>Sign in / Register</p>
                 </div>
             </header>
        </div>
        <section id="hero" class="full-width-grid-con">
-            <h2 class="hidden">Book a stay with us</h2>
+            <h2 class="hidden">Explore Burple</h2>
             <img
             sizes="100vw"
             srcset="
@@ -49,11 +50,10 @@
             src="images/Burple_herobubbles_fktbfp_c_scale,w_1170.jpg"
             alt="" id="hero-main">
             <div class="grid-con">
-                <div id="book-now-hero" class="book-now col-start-3 col-end-5">
-                    <p>Book Now</p>
+                <!--<div id="book-now-hero" class="book-now col-start-3 col-end-5">-->
+                <div id="explore-hero" class="explore col-start-3 col-end-5">
+                    <p>Explore...</p>
                 </div>
-                 
-    
             </div>
        </section>
 
@@ -85,15 +85,52 @@
         </div>
     </section>
 
-       <section class="grid-con" id="promotional-con">
-        <h2>New Flavours</h2>
-        <div class="col-span-full m-col-start-1 m-col-end-10 l-col-start-2 l-col-end-6">
+    <section id="promotional-con" class="grid-con" >
+        <div class="col-span-full m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-6" id="new-flavours">
+        <h2>New Flavours</h2><br>  
         <p>Go to explore the latest inovation in the Sparkling World, including new flavours and our new campaing for saving the world from waste.</p>
         </div>
-        <div class="col-span-full m-col-start-10 m-col-end-13 l-col-start-6 l-col-end-11">
-            <img src="images/M_Flavours.jpg">
+        <div class="col-span-full m-col-start-6 m-col-end-12 ">
+            <img
+            sizes="100vw"
+            srcset="
+            images/Burple_New_dxmxik_c_scale,w_375.jpg 375w,
+            images/Burple_New_dxmxik_c_scale,w_581.jpg 581w,
+            images/Burple_New_dxmxik_c_scale,w_600.jpg 600w"
+            src="images/Burple_New_dxmxik_c_scale,w_600.jpg"
+            alt="">
         </div>
     </section>
+
+    <section class="grid-con" id="products-con2">
+        <h2 class="hidden">Features2</h2>
+
+        <div class="col-span-full m-col-span-3">
+            <h2>Our Company</h2>
+            <img src="images/M_Company.jpg" id="company">
+            <p>Know all our team members</p>
+        </div>
+
+        <div class="col-span-full m-col-span-3">
+            <h2>Burple Points</h2>
+            <img src="images/M_Bills.jpg" id="bills">
+            <p>Earn Points to get lovely souvenirs</p>
+        </div>
+
+        <div class="col-span-full m-col-span-3">
+            <h2>Responsible bussines</h2>
+            <img src="images/M_Cans.jpg" id="cans">
+            <p>Our planet matters</p>
+        </div>
+
+        <div class="col-span-full m-col-span-3">
+           <h2>No waste</h2>
+           <img src="images/M_Waste.jpg" id="waste">
+           <p>We are part of the solution</p>
+        </div>
+    </section>
+
+
         
     <footer id="footer-hero">
         <div class="grid-con">
