@@ -11,19 +11,20 @@
 <script src="https://kit.fontawesome.com/c65e6bc5cc.js" crossorigin="anonymous"></script>
 <link href="css/normalize.css" rel="stylesheet">
 <link href="css/grid.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
+<!--<link href="css/main.css" rel="stylesheet">-->
+<link href="css/main2.css" rel="stylesheet">
 </head>
 
 <body>
 <h1 class="hidden">Burple Home</h1>
-<div class="container">
+
 <header class="grid-con" id="main-header">
     <nav id="main-nav" class="col-start-1 col-end-2 m-col-start-3 m-col-end-10">
         <h2 class="hidden">Main navigation</h2>
         <input type="checkbox" id="hamburger">
         <label for="hamburger"><img src="images/burger.svg" alt="butguermenu"></label>
            <div id="burger-con">
-            <ul>
+            <ul id="burger-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="team.html">Who Are We?</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -32,7 +33,7 @@
             </ul>
            </div> 
     </nav>
-    <div id="main-logo" class="col-start-2 col-end-4 m-col-start-5 m-col-end-8" >
+    <div id="main-logo" class="col-start-2 col-end-4 m-col-start-4 m-col-end-6 l-col-start-5 l-col-end-8" >
         <img src="images/BURPLE_Logo.svg" id="burple-logo" alt="logo">
     </div>
 </header>
@@ -53,27 +54,27 @@
     <section id="features1" class="grid-con">
         <h2 class="hidden">Features1</h2>
 
-        <div class="col-span-full m-col-span-3">
+        <div class="col-span-full   m-col-start-1 m-col-end-3">
             <h2>Bold flavour</h2>
-            <img src="images/Bold.svg" id="bold">
+            <img src="images/Bold.svg" alt="bold">
             <p>Amazing variety of flavours that will take yo to the moon.</p>
         </div>
 
-        <div class="col-span-full m-col-span-3">
+        <div class="col-span-full m-col-start-3 m-col-end-6">
             <h2>Best ingredients</h2>
-            <img src="images/Grapes.svg" id="grapes">
+            <img src="images/Grapes.svg" alt="grapes">
             <p>Delicious product requires the best ingredients, we have them, for sure.</p>
         </div>
 
-        <div class="col-span-full m-col-span-3">
+        <div class="col-span-full m-col-start-6 m-col-end-9">
            <h2>Real people</h2>
-           <img src="images/Hand.svg" id="hand"> 
+           <img src="images/Hand.svg" alt="hand">
             <p>Quality is everything to us and our team is very aware of that.</p>
         </div>
             
-        <div class="col-span-full m-col-span-3">
+        <div class="col-span-full m-col-start-9 m-col-end-12">
             <h2>Sustainability</h2>
-            <img src="images/Bottle.svg" id="bottle">
+            <img src="images/Bottle.svg" alt="bottle">
             <p>Meeting our own needs without compromising the future generations to meet their own needs.</p>
         </div>
     </section>
@@ -83,7 +84,7 @@
         <div class="col-span-full m-col-start-1 m-col-end-10 l-col-start-2 l-col-end-6">
         <p>Go to explore the latest inovation in the Sparkling World, including new flavours and our new campaing for saving the world from waste.</p>
         </div>
-        <div class="col-span-full m-col-start-10 m-col-satr-10 m-col-end-13 l-col-start-6 l-col-end-11">
+        <div class="col-span-full m-col-start-10 m-col-end-13 l-col-start-6 l-col-end-11">
             <img src="images/M_Flavours.jpg">
         </div>
     </section>
@@ -125,7 +126,7 @@
             <img src="images/M_Cocktail.jpg" id="cocktail">
         </div>
 
-        <div class="col-span-full m-col-start-10 m-col-satr-10 m-col-end-13 l-col-start-6 l-col-end-11">
+        <div class="col-span-full m-col-start-10 m-col-end-13 l-col-start-6 l-col-end-11">
             
             <h2>*Top it off with Burple!*</h2>
                 <h3>Sparkling Lion</h3><br>
@@ -192,7 +193,7 @@
         <section class="col-span-full">
             <h3 class="hidden">Footer</h3>
 
-            <div class="footer-logo">
+            <div class="footer-logo col-span-full">
                 <img src="images/BURPLE_Logo.svg" id="burple-logo-footer" alt="logo">
             </div>
 
@@ -233,7 +234,7 @@
                 </div>
         </section>
     </footer>
-    </div>
+
 
     <script src="js/main.js"></script>
 </body>

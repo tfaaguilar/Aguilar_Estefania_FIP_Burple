@@ -21,37 +21,10 @@
 /* HOME */
 
 /* 1. General Styles */
-.hidden { display: none;}
-
-body {
-    font-family: 'comfortaa', arial, sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 375px;
-    margin: 0 auto;
-    border: solid 1px #d8d2dd;
-    box-shadow: 0px 5px 8px #888888;
-}
-
-a {
-	text-decoration: none;
-	transition: all .5s ease-in-out;
-}
 
 /* 2. Grid */
 
-.grid-con {
-    display: grid;
-    padding-left: 10px;
-    padding-right: 10x;
-    grid-template-columns: repeat(4, 70px);
-    grid-column-gap: 30px;
-}
+
 
 #main-header {
     position: sticky;
@@ -246,10 +219,9 @@ h2, h3, p {
 
 #burple-logo-footer {
     width: 30%;
-    position: relative;
-    margin-left: 80px;
+    margin-left: 120px;
+ 
 }
-
 #footer-nav ul {
   list-style-type: none;
   margin: 40px;
@@ -257,11 +229,8 @@ h2, h3, p {
 }
 
 #footer-nav li {
-  
   margin-right: 20px;
 }
-
-
 
 #footer-social {
   display: flex;
@@ -277,6 +246,13 @@ h2, h3, p {
   margin-bottom: 30px;
 }
 
+#social-icons i {
+    margin-right: 20px;
+    color: #5b0da3;
+    margin-top: 10px;
+
+}
+
 #info-location {
   margin-left: 50px;
 }
@@ -285,38 +261,92 @@ h2, h3, p {
     margin-bottom: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*TABLET SIZE */
 
 @media screen and (min-width: 768px ) {
-    #main-logo {
-        order: -1;
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+    border: solid 1px #d8d2dd;
+    box-shadow: 0px 5px 8px #888888;
+}
+
+#main-nav label img {
+   display: none;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+}
+
+  #burger-con {
+      display: block;
+      font-size: 15px;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      
+   }
+
+   #burger-con ul li, #burger-con ul li:first-child {
+      border: none;
+      display: inline-block;
+   }
+   
+
+   #main-nav ul li a {
+      display: inline;
+      border: none;
+   }
+
+   #burger-con ul li {
+      margin-right: 30px;
+      margin-bottom: 10px;
+   }
+
+   #burger-con ul li:last-child {
+      margin-right: 0;
+   }
+
+   #main-nav {
+      margin-top: 4%;
+      margin-bottom: 4%;
+      margin-left: 30px;
+      display: flex;
+      align-items: center;
+   }
+
+   #features1 {
+    display:grid;
+    
     }
+
+    #features1 div {
+        width: 20%;
+        margin-right: 40px;
+
+        
+    }
+
+    
+
+    
+ 
+
+
+
+  
+
+   
+
+  
     
 }
 
-#main-header {
-    position: sticky;
-}
 
 
-#main-logo {
-    height: 100px;
-}
-
-
+/*
 #hero-con {
     height: 400px;
 }
@@ -344,5 +374,23 @@ h2, h3, p {
 #promotional-con3 {
     height: 400px;
 }
+*/
+
+/*DESKTOP SIZE */
+
+@media screen and (min-width: 1200px ) {
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+    border: solid 1px #d8d2dd;
+    box-shadow: 0px 5px 8px #888888;
+}
+ 
+#main-logo {
+    width: 50%;
+}
 
 
+
+
+}
