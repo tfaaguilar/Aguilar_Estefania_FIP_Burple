@@ -37,6 +37,10 @@ input, textarea {
    color: #9a2018;
 }
 
+.feature-box h3 {
+   text-align: center;
+}
+
 /* 2. ---Main Nav--- */
 
 #main-nav button {
