@@ -27,6 +27,8 @@ body {
     font-family: 'comfortaa', arial, sans-serif;
     font-size: 15px;
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -66,10 +68,52 @@ a {
     cursor: pointer;
 }
 
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+#main-nav li a {
+    color: rgb(71, 35, 112);
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#main-nav li {
+    border-bottom: 1px solid #efefef;
+}
+
+#main-nav li:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#main-nav li:last-child {
+    margin-bottom: 10px;
+}
+
+#burger-con, #main-nav input {
+    display: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+    display: block;
+}
+
+#main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+}
+
+#main-nav ul li a:hover {
+    border-bottom: 5px solid #5b0da3;
+    padding-bottom: 3px;
+}
 
 #explore {
-    margin-top: 10px;
-    color: #af5050;
+    color: #e9e3e3;
+    
+    
 }
 
 #explore:hover {
@@ -78,8 +122,22 @@ a {
 
 #tag-line {
     color: #6b5454;
-    margin-top: 10px;
 }
+
+#features1 {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 60%;
+}
+
+h2, p {
+    text-align: center;
+}
+
+
+
 
 
 
