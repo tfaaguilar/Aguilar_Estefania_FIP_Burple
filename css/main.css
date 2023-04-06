@@ -263,6 +263,32 @@ h2, h3, p {
 
 
 
+#footer-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#info-location {
+  margin-left: 50px;
+}
+
+#info-footer {
+    margin-bottom: 50px;
+}
+
+
+
+
+
 
 
 
