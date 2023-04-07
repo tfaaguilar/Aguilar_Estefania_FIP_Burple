@@ -16,19 +16,20 @@ input, textarea {
 }
 
 .cr-red {
-   color: #9a2018;
+   color: #600783;
 }
 
 /* 2. ---Main Nav--- */
 
 #main-nav button {
-   width: 20px;
-   height: 20px;
+   width: 30px;
+   height: 30px;
    background: url(../images/burger.svg) no-repeat center;
    margin-top: 15px;
    margin-bottom: 20px;
    transition: all .5s ease;
    border: 0;
+   cursor: pointer;
 }
 
 #main-nav button.expanded {
@@ -55,7 +56,7 @@ input, textarea {
    display: block;
    padding: 10px 0 10px 0;
    text-align: center;
-   color: #626262;
+   color: #430886;
 }
 
 #main-nav ul li a:hover {
@@ -94,8 +95,10 @@ input, textarea {
 }
 
 #logo {
-   max-width: 180px;
-   margin-bottom: 0px;
+   max-width: 150px;
+   margin-bottom: 10px;
+   margin-left: 130px;
+   margin-top: -50px;
 }
 
 /* 2. ---Main Nav--- */
@@ -129,7 +132,7 @@ input, textarea {
 }
 
 .hero-img-h2 span, .hero-img-h3 span {
-   color: #9a2018;
+   color: #881ddf;
    font-size: 12px;
 }
 
@@ -152,7 +155,7 @@ input, textarea {
 /* 8. ---Footer--- */
 
 #footer-hero {
-   background-image: url(../images/footer-mt.jpg);
+   /*background-image: url(../images/Burple_Company.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
    background-position: center;
@@ -160,6 +163,7 @@ input, textarea {
    font-size: 16px;
    margin-top: 40px;
    padding-bottom: 80px;
+   text-align: center;
 }
 
 #footer-hero h3 {
@@ -186,31 +190,6 @@ input, textarea {
    display: none;
 }
 
-/* Features */
-#features1 {
-   height: 1300px;
-   margin-top: 20px;
-   text-align: center;
-   
-}
-
-/*New Flavours*/
-#promotional-con {
-   height: 350px;
-   background-color: #EDE7F8  ;
-}
-
-/*Features2*/
-#products-con2 {
-   height: 1276px;
-   text-align: center;
-   
-}
-
-#new-flavours {
-   text-align: center;
-}
-
 #footer-contact-info {
    font-size: 26px;
 }
@@ -219,9 +198,96 @@ input, textarea {
    background-color: #f7f5f5;
 }
 
-#recipes {
-   height: 709px;
+/* Features */
+#features1 {
+   height: 1200px;
+   margin-top: 20px;
+   text-align: center;
+   background-color: #a39999;
 }
+
+#features1 div {
+   margin-top: 20px;
+}
+
+#features1 img {
+   margin-top: 20px;
+}
+
+/*New Flavours*/
+#promotional-con {
+   height: 450px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #5a3b94  ;
+}
+
+#promotional-con div {
+   margin-top: 20px;
+}
+
+
+/*Features2*/
+#products-con2 {
+   height: 1500px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #707070;
+}
+
+#products-con2 div {
+   margin-top: 20px;
+}
+
+#products-con2 img {
+   margin-top: 5px;
+}
+
+#recipes {
+   height: 700px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #d8a6a6;
+}
+
+#recipes div {
+   margin-top: 20px;
+}
+
+#recipes img {
+   border-radius:100px;
+   margin-top: 20px;
+}
+
+#clients {
+   height: 900px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #e2a7a7;
+}
+
+#clients div {
+   margin-top: 20px;
+}
+
+#location {
+   height: 600px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+   background-color: #78e9b4;
+}
+
+#location div {
+   margin-top: 20px;
+}
+
+
+
 
 /* 10. ---Tablet Sized Screens--- */
 
@@ -232,7 +298,7 @@ input, textarea {
       background-color: #fff;
       top: 0px;
       border-bottom: solid 1px #c3c3c3;
-      z-index: 1; 
+      z-index: 1;
       /* had to set z-index as css filters was causing images to overlap, see below */
    }
 
@@ -312,17 +378,28 @@ input, textarea {
 
    #features1 {
    height: 350px;
-}
+   }
+
    #promotional-con {
    height: 239px;
-}
+   background-color: #312d2d;
+   }
 
 #products-con2 {
    height: 450px;
+   background-color: #312d2d;
 }
 
 #recipes {
    height: 403px;
+   background-color: #9187f0;
+}
+
+#clients {
+   height: 415px;
+   background-color: #e98686;
+}
+
 }
 
 /* 11. ---Desktop (1200px) Sized Screens */
@@ -363,19 +440,25 @@ input, textarea {
 
    #features1 {
    height: 350px;
-}
+   }
 
 #promotional-con {
    height: 380px;
-}
+   }
 
 #products-con2 {
    height: 450px;
+   background-color: #350f0f;
 }
 
 #recipes {
-   height: 403px;
-}
-}
+   height: 400px;
+   background-color: #857ae7;
 }
 
+#clients {
+   height: 415px;
+   background-color: #d091fa;
+}
+
+}
