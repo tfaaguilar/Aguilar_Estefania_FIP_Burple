@@ -477,29 +477,35 @@ input, textarea {
       font-size: 16px;
    }
 
-   
-
    #features1 {
    height: 350px;
    }
 
 #promotional-con {
-   height: 380px;
+   height: 420px;
    }
 
 #products-con2 {
-   height: 450px;
-   background-color: #350f0f;
+   height: 400px;
+   background-color: #f7dede;
 }
 
 #recipes {
    height: 400px;
+
    background-color: #857ae7;
 }
 
+#recipes img {
+   width: 45%;
+}
+
 #clients {
-   height: 415px;
+   height: 280px;
    background-color: #d091fa;
 }
 
+#location {
+   height: 450px;
+}
 }
