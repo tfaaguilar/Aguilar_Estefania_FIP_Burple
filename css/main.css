@@ -54,9 +54,10 @@ input, textarea {
 
 #main-nav ul li a {
    display: block;
-   padding: 10px 0 10px 0;
+   padding: 5px 0 10px 0;
    text-align: center;
    color: #430886;
+   
 }
 
 #main-nav ul li a:hover {
@@ -84,6 +85,7 @@ input, textarea {
    justify-content: center;
    align-items: center;
    transition: all 0.3s ease-in-out;
+   cursor: pointer;
 }
 
 .sign-in:hover {
@@ -98,7 +100,7 @@ input, textarea {
    max-width: 150px;
    margin-bottom: 10px;
    margin-left: 130px;
-   margin-top: -50px;
+   margin-top: -30px;
 }
 
 /* 2. ---Main Nav--- */
@@ -286,6 +288,14 @@ input, textarea {
    margin-top: 20px;
 }
 
+#footer-book-now {
+   margin-top: 20px;
+}
+
+#social-icons {
+   margin-top: 20px;
+}
+
 
 
 
@@ -307,13 +317,15 @@ input, textarea {
    }
 
    #logo {
-      margin-top: 32px;
+      width: 90%;
+      margin-top: 10px;
       order: -1;
+      margin-left: 30px;
    }
 
    #burger-con {
       display: block;
-      font-size: 12px;
+      font-size: 13px;
    }
 
    #burger-con ul li, #burger-con ul li:first-child {
@@ -336,13 +348,22 @@ input, textarea {
    #main-nav {
       margin-top: 4%;
       margin-bottom: 4%;
-      border-left: 2px solid #707070;
+      border-left: 1px solid #dce0f3;
       padding-left: 30px;
+      
    }
 
    #sign-in-header {
+      margin-top: 30px;
+      height: 40px;
       display: flex;
       margin-right: -16px;
+      margin-right: 5px;
+      color: #fdfbfb;
+   }
+
+   #sign-in-header p {
+      font-size: 12px;
    }
 
    #sign-in-hero {
@@ -381,26 +402,46 @@ input, textarea {
    }
 
    #promotional-con {
-   height: 239px;
+   height: 280px;
    background-color: #312d2d;
    }
 
-#products-con2 {
-   height: 450px;
-   background-color: #312d2d;
-}
+   #products-con2 {
+      height: 300px;
+      background-color: #2d5983;
+   }
 
-#recipes {
-   height: 403px;
-   background-color: #9187f0;
-}
+   #recipes {
+      height: 350px;
+      background-color: #9187f0;
+   }
 
-#clients {
-   height: 415px;
-   background-color: #e98686;
-}
+   #recipes img {
+      width: 60%
+   }
 
-}
+   #recipes h3 {
+      margin-top: 60px;
+   }
+
+   #clients {
+      height: 270px;
+      background-color: #e98686;
+   }
+
+   #clients h2 {
+      margin-top: 80px;
+   }
+
+   #location {
+      height: 390px;
+   }
+
+   #location h2 {
+      margin-top: 80px;
+   }
+
+   }
 
 /* 11. ---Desktop (1200px) Sized Screens */
 
