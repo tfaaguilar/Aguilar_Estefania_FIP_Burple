@@ -156,8 +156,8 @@ input, textarea {
 	background-repeat: no-repeat;
 	background-size: cover;
    background-position: center;
-   color: #fff;
-   font-size: 12px;
+   color: #5b3391;
+   font-size: 16px;
    margin-top: 40px;
    padding-bottom: 80px;
 }
@@ -211,6 +211,17 @@ input, textarea {
    text-align: center;
 }
 
+#footer-contact-info {
+   font-size: 26px;
+}
+
+#footer-hero {
+   background-color: #f7f5f5;
+}
+
+#recipes {
+   height: 709px;
+}
 
 /* 10. ---Tablet Sized Screens--- */
 
@@ -310,6 +321,10 @@ input, textarea {
    height: 450px;
 }
 
+#recipes {
+   height: 403px;
+}
+
 /* 11. ---Desktop (1200px) Sized Screens */
 
 @media screen and (min-width: 1200px) {
@@ -352,6 +367,14 @@ input, textarea {
 
 #promotional-con {
    height: 380px;
+}
+
+#products-con2 {
+   height: 450px;
+}
+
+#recipes {
+   height: 403px;
 }
 }
 }
