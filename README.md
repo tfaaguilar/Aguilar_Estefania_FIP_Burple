@@ -1,4 +1,4 @@
-# ${1:BURPLE * Sparkling Water}
+# BURPLE * Sparkling Water
 
 Responsive web page for sparkling water Burple
 
