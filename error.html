@@ -10,12 +10,12 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <title>Burple * Contact *</title>
+    <link href="css/error.css" rel="stylesheet">
+    <title>Burple * Sparkling Water</title>
 </head>
 
     <body>
-
-       <h1 class="hidden">Burple Contactpage</h1>
+       <h1 class="hidden">Burple Homepage</h1>
        <div id="sticky-nav-con">
             <header class="grid-con" id="main-header">
                 <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
@@ -41,66 +41,21 @@
                 </div>
             </header>
        </div>
-       <section id="hero" class="full-width-grid-con">
-            <h2 class="hidden">Contact Center</h2>
-            <img
-            sizes="100vw"
-            srcset="
-            images/Contact_hero_skjizd_c_scale,w_320.jpg 320w,
-            images/Contact_hero_skjizd_c_scale,w_759.jpg 759w,
-            images/Contact_hero_skjizd_c_scale,w_1118.jpg 1118w,
-            images/Contact_hero_skjizd_c_scale,w_1170.jpg 1170w"
-            src="Contact_hero_skjizd_c_scale,w_1170.jpg"
-            alt="contact" id="hero-main">
-       </section>
+      
+<section class="grid-con">
+     <div id="error" class="col-span-full">
+        <h2>Oops! <br> It looks like something went wrong!</h2> 
+        <h3>Our website seems to be experiencing some bubbles at the moment...</h3>
+    </div>
 
-<!--Contact-->
-    <section id="contact-form" class="grid-con">
-        <h2 class="hidden">Contact Form</h2>
-
-        <div class="col-span-full m-col-start-3 m-col-end-10 l-col-start-2 l-col-end-12">
-            <h3>Welcome to our Contact Center</h3><br>
-            <p>We're excited to hear from you and can't wait to see what kind of amazing things we can accomplish together.</p><br> 
-            <p>Let's launch into action and get this party started!</p><br> 
-            <p>Fill out the form below with all your burning questions, thoughts, and ideas, and let's make some internet magic happen!</p><br> 
-            <p>Don't be shy, we're here to help and can't wait to connect with you."</p>
-        </div>
-
-        <div class="col-span-full m-col-start-2 m-col-end-11 l-col-start-2 l-col-end-7">
-            <h3>Drop Us a Line, or Two, or Three...</h3>
-            <img src="images/Phone.jpg" alt="phone">
-        </div>
-
-        <div class="col-span-full m-col-start-3 m-col-end-12 l-col-start-7 l-col-end-12">
-           <h3 class="hidden">Contact Form</h3>
-           <form action="email.php" method="POST" enctype="text/plain">
-            <input name="fullName" type="text" placeholder="Write your name here">
-            <input name="contactInfo" type="text" required placeholder="Phone number or Email">
-            <textarea name="msg" placeholder="Leave us a message here..."></textarea>
-            <input name="submit" type="submit" value="Send">
-            </form>
-        </div>     
-    </section>
-
-
-<!--Maps-->
-        <section id="location" class="grid-con">
-            <h2 class="hidden">Location</h2>
-            <div class="col-span-full m-col-start-2 m-col-end-6" id="tag-line4">
-                <h2>*Visit us*</h2><br>
-                <p>Get to know how Burple is made</p><br>
-                <i class="fa-solid fa-map-location-dot"></i>
-                <i>555 Comissioners Rd, London ON</i><br>
-                <i class="fa-solid fa-phone"></i>
-                <i>+1 555-5555</i><br>
-                <i class="fa-solid fa-envelope"></i>
-                <i>info@burple.com</i>
-            </div>
-
-            <div class="col-span-full m-col-start-6 m-col-end-13">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.147528667695!2d-81.29469222465059!3d42.95409539736694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef103dc840da1%3A0xf6554acb00c84cad!2s555%20Commissioners%20Rd%20W%2C%20London%2C%20ON%20N6K%201B6!5e0!3m2!1ses-419!2sca!4v1680908554091!5m2!1ses-419!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+    <div class="bubble-container col-span-full">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+    </div>
+</section>
 
 <!--Footer-->
     <footer id="footer-hero">
