@@ -1,6 +1,6 @@
 # BURPLE * Sparkling Water
 
-Responsive web page for sparkling water Burple
+Responsive web page for refreshing brand: BURPLE * Sparkling Water * 
 
 ## Contributing
 1. Fork it!

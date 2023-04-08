@@ -300,15 +300,15 @@ input, textarea {
       background-color: #f59ce9;
       height: 1020px;
       text-align: center;
-   }
+}
 
-   #contact-form div {
+#contact-form div {
       margin-top: 20px;
-   }
+}
 
-   #contact-form img {
+#contact-form img {
       margin-top: 20px;
-   }
+}
 
 input, textarea {
    width: 450px;
@@ -333,6 +333,72 @@ input[type="submit"]:hover {
     background-color: #4b2d64;
     cursor: pointer;
 }
+
+#characters {
+   text-align: center;
+}
+
+#characters h2 {
+   margin-top: 20px;
+}
+
+#characters h3 {
+   margin-top: 20px;
+}
+
+
+
+.lightbox { 
+    width: 60vw; 
+    height: 60vh; 
+    border-radius: 2%;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: rgba(66, 37, 5, 0.938);
+    z-index: 5000;
+    display: none;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+
+
+
+.lightbox article {
+    width: 50%;
+    margin-left: 20%;
+    padding-top: 0px;
+    color: white;
+}
+
+.lb_text, .lb_heading { text-align: center; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+.name {
+    font-size: 25px;
+}
+
 
 /* 10. ---Tablet Sized Screens--- */
 
