@@ -1,6 +1,4 @@
-
-
-/* 1. ---General Styles--- */
+/*---General Styles--- */
 
 body {
    font-family: 'Comfortaa', 'Times New Roman', serif;
@@ -17,11 +15,7 @@ input, textarea {
    padding: 0;
 }
 
-.cr-red {
-   color: #600783;
-}
-
-/* 2. ---Main Nav--- */
+/*---Main Nav--- */
 
 #main-nav button {
    width: 30px;
@@ -105,24 +99,15 @@ input, textarea {
    margin-top: -30px;
 }
 
-/* 2. ---Main Nav--- */
-
 #hero img {
-   /* stretch image across all 3 grid columns */
    grid-column: 1/-1;
-   /* set the image to stay in first row, so overlap can happen */
    grid-row: 1/1;
-   /* make sure the image stays centered at xl screen sizes */
    justify-self: center;
 }
 
 #hero .grid-con {
-   /* tell the overlapping 12 column grid to live in the center
-   of the 3 column grid */
    grid-column: 2/3;
-   /* tell the overlappig grid to live in row 1 so it overlaps the image */
    grid-row: 1/1;
-   /* get rid of margin 0 auto from original .grid-con class */
    margin: 0;
 }
 
@@ -156,10 +141,9 @@ input, textarea {
    padding-top: 20px;
 }
 
-/* 8. ---Footer--- */
+/*---Footer--- */
 
 #footer-hero {
-   /*background-image: url(../images/Burple_Company.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
    background-position: center;
@@ -225,9 +209,7 @@ input, textarea {
 
 .img-flotante:hover {
    transform: translateX(-5px) rotate(-200deg);
-   
  }
- 
 
 /*New Flavours*/
 #promotional-con {
@@ -245,7 +227,6 @@ input, textarea {
 #promotional-con img:hover {
    opacity: 70%;
 }
-
 
 /*Features2*/
 #products-con2 {
@@ -291,7 +272,6 @@ input, textarea {
    opacity: 70%;
    border-radius: 50%;
 }
-
 
 #clients {
    height: 900px;
@@ -425,8 +405,6 @@ input[type="submit"]:hover {
 
 .lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
 
-
-
 .lightbox article {
     width: 80%;
     margin-left: 10%;
@@ -476,9 +454,7 @@ article p {
    margin: 20px;
 }
 
-
-
-/* 10. ---Tablet Sized Screens--- */
+/*---Tablet Sized Screens--- */
 
 @media screen and (min-width: 768px) {
 
@@ -488,7 +464,6 @@ article p {
       top: 0px;
       border-bottom: solid 1px #c3c3c3;
       z-index: 1;
-      /* had to set z-index as css filters was causing images to overlap, see below */
    }
 
    #button {
@@ -561,7 +536,6 @@ article p {
       font-size: 14px;
    }
 
-
    #footer-nav {
       display: block;
    }
@@ -570,10 +544,6 @@ article p {
       display: flex;
       height: 80px;
       margin-top: 40px;
-   }
-
-   #footer-hero {
-      background-image: url(../images/footer-td.jpg);
    }
 
    #features1 {
@@ -658,8 +628,6 @@ article p {
 
 .lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
 
-
-
 .lightbox article {
     width: 80%;
     margin-left: 10%;
@@ -692,9 +660,7 @@ article p {
 }
    }
 
-
-
-/* 11. ---Desktop (1200px) Sized Screens */
+/*---Desktop (1200px) Sized Screens */
 
 @media screen and (min-width: 1200px) {
    #main-header {
@@ -748,6 +714,10 @@ article p {
    background-color: #f7dede;
 }
 
+#new-flavours h2 {
+   margin-top: 130px;
+}
+
 #recipes {
    height: 400px;
 
@@ -783,57 +753,53 @@ article p {
     background-color: rgba(17, 6, 24, 0.938);
     z-index: 5000;
     display: none;
-}
+   }
 
-.lightbox_close {
-    position: relative;
-    top: 20px;
-    left: 85%;
-    color: white;
-    font-size: 3em;
-    text-decoration: none;
-    font-weight: bolder;
-}
+   .lightbox_close {
+      position: relative;
+      top: 20px;
+      left: 85%;
+      color: white;
+      font-size: 3em;
+      text-decoration: none;
+      font-weight: bolder;
+   }
 
-.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+   .lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
 
+   .lightbox article {
+      width: 80%;
+      margin-left: 10%;
+      color: white;
+   }
 
+   .lb_text, .lb_heading { text-align: center; }
 
-.lightbox article {
-    width: 80%;
-    margin-left: 10%;
-    color: white;
-}
+   .lb_text {
+      line-height: 1.6 !important;
+      margin-left: 0;
+      padding-top: 2em;
+   }
 
-.lb_text, .lb_heading { text-align: center; }
+   .lightbox:target { display: block; }
 
-.lb_text {
-    line-height: 1.6 !important;
-    margin-left: 0;
-    padding-top: 2em;
-}
+   .name {
+      font-size: 25px;
+      text-align: center;
+   }
 
-.lightbox:target { display: block; }
+   article p {
+      margin-top: 20px;
+   }
 
-.name {
-    font-size: 25px;
-    text-align: center;
-}
+   #characters {
+      display: flex;
+      padding-left: 180px;
+   }
 
-article p {
-   margin-top: 20px;
-}
-
-#characters {
-   display: flex;
-   padding-left: 180px;
-}
-
-#join-us {
-   margin-left: 500px;
-   margin-right: 450px;
-   height: 40px;
-}
-
-
+   #join-us {
+      margin-left: 500px;
+      margin-right: 450px;
+      height: 40px;
+   }
 }
