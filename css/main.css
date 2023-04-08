@@ -414,6 +414,32 @@ article p {
    margin-top: 20px;
 }
 
+#hiring {
+   text-align: center;
+   margin-top: 20px;
+}
+
+#hiring div {
+   margin-bottom: 20px;
+}
+
+#join-us {
+   margin-left: 170px;
+   margin-right: 200px;
+   height: 40px;
+}
+
+#team {
+   text-align: center;
+   margin-top: 20px;
+}
+
+#team p {
+   margin: 20px;
+}
+
+
+
 /* 10. ---Tablet Sized Screens--- */
 
 @media screen and (min-width: 768px) {
@@ -570,7 +596,65 @@ article p {
       margin-top: 20px;
    }
 
+   .lightbox { 
+    width: 60vw; 
+    height: 50vh; 
+    border-radius: 2%;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: rgba(17, 6, 24, 0.938);
+    z-index: 5000;
+    display: none;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 85%;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+
+
+
+.lightbox article {
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+
+.lb_text, .lb_heading { text-align: center; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+.lightbox:target { display: block; }
+
+.name {
+    font-size: 25px;
+    text-align: center;
+}
+
+article p {
+   margin-top: 20px;
+}
+
+#join-us {
+   margin-left: 300px;
+   margin-right: 300px;
+   height: 40px;
+}
    }
+
+
 
 /* 11. ---Desktop (1200px) Sized Screens */
 
@@ -650,5 +734,68 @@ article p {
       height: 630px;
       text-align: center;
    }
+
+   .lightbox { 
+    width: 60vw; 
+    height: 45vh; 
+    border-radius: 2%;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: rgba(17, 6, 24, 0.938);
+    z-index: 5000;
+    display: none;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 85%;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(141, 119, 146); }
+
+
+
+.lightbox article {
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+
+.lb_text, .lb_heading { text-align: center; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+.lightbox:target { display: block; }
+
+.name {
+    font-size: 25px;
+    text-align: center;
+}
+
+article p {
+   margin-top: 20px;
+}
+
+#characters {
+   display: flex;
+   padding-left: 180px;
+}
+
+#join-us {
+   margin-left: 500px;
+   margin-right: 450px;
+   height: 40px;
+}
+
 
 }
