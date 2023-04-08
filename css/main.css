@@ -1,3 +1,5 @@
+
+
 /* 1. ---General Styles--- */
 
 body {
@@ -57,7 +59,6 @@ input, textarea {
    padding: 5px 0 10px 0;
    text-align: center;
    color: #430886;
-   
 }
 
 #main-nav ul li a:hover {
@@ -217,6 +218,17 @@ input, textarea {
    margin-top: 20px;
 }
 
+.img-flotante {
+   transform: translateX(-30px) rotate(-10deg);
+ }
+ 
+
+.img-flotante:hover {
+   transform: translateX(-5px) rotate(-200deg);
+   
+ }
+ 
+
 /*New Flavours*/
 #promotional-con {
    height: 450px;
@@ -228,6 +240,10 @@ input, textarea {
 
 #promotional-con div {
    margin-top: 20px;
+}
+
+#promotional-con img:hover {
+   opacity: 70%;
 }
 
 
@@ -248,6 +264,12 @@ input, textarea {
    margin-top: 5px;
 }
 
+#products-con2 img:hover {
+   opacity: 70%;
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
 #recipes {
    height: 700px;
    margin-top: 20px;
@@ -265,6 +287,11 @@ input, textarea {
    margin-top: 20px;
 }
 
+#recipes img:hover {
+   opacity: 70%;
+   border-radius: 50%;
+}
+
 
 #clients {
    height: 900px;
@@ -276,6 +303,10 @@ input, textarea {
 
 #clients div {
    margin-top: 20px;
+}
+
+#clients img:hover {
+   opacity: 80%;
 }
 
 #location {
@@ -310,6 +341,11 @@ input, textarea {
 
 #contact-form img {
       margin-top: 20px;
+}
+
+#contact-form img:hover {
+   opacity: 80%;
+   transform: scale(1.1);
 }
 
 input, textarea {
