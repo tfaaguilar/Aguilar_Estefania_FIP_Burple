@@ -1,6 +1,18 @@
 body {
-  background-color: #cecbcb; /* Cambiamos el color de fondo */
+  background-color: #312c38;
+  font-family: 'Comfortaa', 'Times New Roman', serif;
+  color: #e2f9fc;
 }
+
+#error h2  {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#error h3 {
+  text-align: center;
+}
+
 
 .bubble-container {
   display: flex;
@@ -11,7 +23,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #0080ff;
+  background-color: #e2f9fc;
   position: relative;
   margin: 20px;
   animation-name: explode;
