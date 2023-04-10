@@ -923,9 +923,11 @@ article p {
 
 #contact-form {
       background-color: #ffffff;
-      height: 630px;
+      height: 500px;
       text-align: center;
    }
+
+
 
    .lightbox { 
     width: 60vw; 
