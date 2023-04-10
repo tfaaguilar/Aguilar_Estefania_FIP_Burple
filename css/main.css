@@ -2,6 +2,7 @@
 
 body {
    font-family: 'Comfortaa', 'Times New Roman', serif;
+   
 }
 
 a {
@@ -242,14 +243,17 @@ input, textarea {
    background-color: #f8f6fc;
 }
 
-   
-
 #promotional-con div {
    margin-top: 20px;
 }
 
+#promotional-con img {
+   margin-left: 50px;
+}
+
 #promotional-con img:hover {
    opacity: 70%;
+   transform: scale(1.2);
 }
 
 /*Features2*/
@@ -258,7 +262,7 @@ input, textarea {
    margin-top: 20px;
    text-align: center;
    margin-bottom: 50px;
- 
+   
    background-color: #f8f6fc;
 }
 
@@ -268,6 +272,7 @@ input, textarea {
 
 #products-con2 img {
    margin-top: 5px;
+   border-radius: 50%;
 }
 
 #products-con2 img:hover {
@@ -580,6 +585,10 @@ article p {
    background-color: #f6f4f8;
    }
 
+   #promotional-con img {
+      width: 70%;
+   }
+
    #products-con2 {
       height: 300px;
       background-color: #ffffff;
@@ -876,6 +885,10 @@ article p {
       color: #110318;
       font-size: 20px;
       
+   }
+
+   #promotional-con img {
+      width: 60%;
    }
 
 
