@@ -16,8 +16,17 @@ input, textarea {
    padding: 0;
 }
 
+#contact-form {
+   margin-bottom: 100px ;
+}
+
 #contact-form img {
    width: 30%;
+   
+   animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
 }
 
 /*.grid-con {
@@ -84,13 +93,13 @@ input, textarea {
    background-color: #f4eafc;
    color: #fff;
    font-size: 16px;
-   font-style: italic;
    display: flex;
    justify-content: center;
    align-items: center;
    transition: all 0.3s ease-in-out;
    cursor: pointer;
    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+   border-radius: 50px;
 }
 
 .sign-in:hover {
@@ -258,7 +267,7 @@ input, textarea {
 #promotional-con h4 {
    text-align: center;
    color: #714e83;
-   font-size: 20px;
+   font-size: 24px;
    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
    margin-left: 70px;
    margin-top: 15px;
@@ -270,12 +279,30 @@ input, textarea {
 
 #promotional-con img {
    margin-left: 50px;
+   
 }
 
 #promotional-con img:hover {
    opacity: 70%;
    transform: scale(1.2);
 }
+
+#promotional-con img {
+   float: left;
+   animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+ }
+ 
+ @keyframes floating {
+   from { transform: translateY(0); }
+   to { transform: translateY(-10px); }
+ }
+ 
+
+
+ 
 
 /*Features2*/
 #products-con2 {
@@ -297,7 +324,7 @@ input, textarea {
 
 #products-con2 img {
    margin-top: 25px;
-   border-radius: 50%;
+   border-radius: 100px;
    margin-bottom: 25px;
 }
 
@@ -328,7 +355,7 @@ input, textarea {
 
 #tag-line3 {
    background-color: #dcd2df;
-   border-radius: 10%;
+   border-radius: 50px;
 }
 
 #tag-line3 p {
@@ -390,7 +417,7 @@ input, textarea {
    margin-top: 20px;
    text-align: center;
    margin-bottom: 50px;
-   background-color: #f4f3f7;
+   
 }
 
 #location h2 {
@@ -417,6 +444,12 @@ input, textarea {
       text-align: center;
 }
 
+#contact-form h4 {
+   color: #714e83;
+   font-size: 18px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 #contact-form div {
       margin-top: 20px;
 }
@@ -436,6 +469,7 @@ input, textarea {
     border: 2px solid #8e6fc7;
     background-color: #f7f7f7;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 input[type="submit"] {
@@ -447,6 +481,8 @@ input[type="submit"] {
     border: none;
     transition: all 200ms ease-in;
     align-self: flex-end;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 input[type="submit"]:hover {
@@ -545,6 +581,7 @@ article p {
    margin-left: 170px;
    margin-right: 200px;
    height: 40px;
+   
 }
 
 #team {
@@ -552,10 +589,32 @@ article p {
    margin-top: 20px;
 }
 
+#team h2 {
+   color: #714e83;
+   font-size: 28px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 #team p {
    margin: 20px;
 }
 
+#characters img {
+   border-radius: 50%;
+}
+
+.role  {
+   color: #442453;
+   font-size: 18px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+}
+
+#contact-form h3 {
+   color: #714e83;
+   font-size: 28px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
 
 /*---Tablet Sized Screens--- */
 
@@ -774,6 +833,16 @@ article p {
    margin-right: 300px;
    height: 40px;
 }
+
+#characters h2 {
+   display: block;
+   position: absolute;
+   color: #110318;
+   font-size: 20px;
+   
+}
+
+
    }
 
 /*---Desktop (1200px) Sized Screens */
@@ -836,7 +905,7 @@ article p {
 
 #recipes {
    height: 400px;
-   background-color: #f6f4f8;
+   
 }
 
 #recipes img {
@@ -978,7 +1047,9 @@ article p {
       font-size: 38px;
    }
 
-
+   #promotional-con h4 {
+      margin-left: 10px;
+   }
 
 
 }
