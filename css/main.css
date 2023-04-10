@@ -158,11 +158,13 @@ input, textarea {
    display: none;
 }
 
-#hero h2, h3 {
+#hero h2 {
    display: none;
 }
 
-
+#hero h3 {
+   display: none;
+}
 
 /*---Footer--- */
 
@@ -214,7 +216,12 @@ input, textarea {
    height: 1200px;
    margin-top: 20px;
    text-align: center;
-   background-color: #fcfbfb;
+}
+
+#features1 h3 {
+   color: #714e83;
+   font-size: 20px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #features1 div {
@@ -240,7 +247,21 @@ input, textarea {
    margin-top: 20px;
    text-align: center;
    margin-bottom: 50px;
-   background-color: #f8f6fc;
+}
+
+#promotional-con h2 {
+   color: #714e83;
+   font-size: 28px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#promotional-con h4 {
+   text-align: center;
+   color: #714e83;
+   font-size: 20px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   margin-left: 70px;
+   margin-top: 15px;
 }
 
 #promotional-con div {
@@ -259,11 +280,15 @@ input, textarea {
 /*Features2*/
 #products-con2 {
    height: 1500px;
-   margin-top: 20px;
+   margin-top: 28px;
    text-align: center;
    margin-bottom: 50px;
-   
-   background-color: #f8f6fc;
+}
+
+#products-con2 h2 {
+   color: #714e83;
+   font-size: 22px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #products-con2 div {
@@ -271,8 +296,9 @@ input, textarea {
 }
 
 #products-con2 img {
-   margin-top: 5px;
+   margin-top: 25px;
    border-radius: 50%;
+   margin-bottom: 25px;
 }
 
 #products-con2 img:hover {
@@ -283,10 +309,34 @@ input, textarea {
 
 #recipes {
    height: 700px;
-   margin-top: 20px;
+   margin-top: 200px;
    text-align: center;
    margin-bottom: 50px;
-   background-color: #f6f4f8;
+}
+
+#recipes h2 {
+   color: #714e83;
+   font-size: 28px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#recipes h3 {
+   color: #714e83;
+   font-size: 22px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#tag-line3 {
+   background-color: #dcd2df;
+   border-radius: 10%;
+}
+
+#tag-line3 p {
+   margin-top: 20px;
+}
+
+#tag-line3 h3 {
+   margin-top: 20px;
 }
 
 #recipes div {
@@ -303,12 +353,28 @@ input, textarea {
    border-radius: 50%;
 }
 
+#more-recipes {
+   margin-bottom: 20px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+#more-recipes p {
+   margin-bottom: 12px;
+}
+
 #clients {
    height: 900px;
-   margin-top: 20px;
+   margin-top: 100px;
    text-align: center;
    margin-bottom: 50px;
    background-color: #ffffff;
+}
+
+#clients h2{
+   color: #714e83;
+   font-size: 28px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #clients div {
@@ -325,6 +391,12 @@ input, textarea {
    text-align: center;
    margin-bottom: 50px;
    background-color: #f4f3f7;
+}
+
+#location h2 {
+      color: #714e83;
+      font-size: 28px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #location div {
@@ -484,6 +556,7 @@ article p {
    margin: 20px;
 }
 
+
 /*---Tablet Sized Screens--- */
 
 @media screen and (min-width: 768px) {
@@ -580,9 +653,13 @@ article p {
    height: 350px;
    }
 
+   #features1 h3 {
+      font-size: 16px;
+   }
+
    #promotional-con {
    height: 280px;
-   background-color: #f6f4f8;
+  
    }
 
    #promotional-con img {
@@ -591,8 +668,13 @@ article p {
 
    #products-con2 {
       height: 300px;
-      background-color: #ffffff;
+      margin-top: 120px;
    }
+
+   #products-con2 h2 {
+      font-size: 16px;
+   }
+
 
    #recipes {
       height: 350px;
@@ -889,6 +971,11 @@ article p {
 
    #promotional-con img {
       width: 60%;
+   }
+
+   #promotional-con h2 {
+      margin-top: 20px;
+      font-size: 38px;
    }
 
 
